@@ -22,6 +22,5 @@ For example:
 
 Use images with high constrast: they can also be images with colors but it's important to have an high constrast between marker image, marker background and also marker border (e.g. all black, with yellow background)
 
-<img src="https://github.com/nicolocarpignoli/nicolocarpignoli.github.io/blob/master/roma/markers/pattern.png?raw=true"/>
 
 
