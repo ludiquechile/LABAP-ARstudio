@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>AR.js Studio</title>
+    <title>LDQ</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,22 +21,23 @@
     <page-header assetsUrl="assets"></page-header>
     <div class="background">
       <div class="content">
-        <p class="title">Web-enabled AR experiences</p>
+        <p class="title">Laboratorio de Realidad Aumentada Ludique </p>
         <p class="paragraph">
-            AR.js Studio is an open-source AR creation platform for building custom augmented reality experiences.
-            You can create location-based or marker-based AR applications and deploy them straight to the web.
-            That means you won’t have to download any extra apps to access your experience!
-            Working with AR.js Studio doesn’t require any knowledge of coding, either.
-            You can start creating your first AR project right now.
+          Este proyecto fue creado para el laboratorio de Apredizaje de la Universidad de Magallanes en base a AR.js Studio.  
+          AR.js Studio es una plataforma de creación de realidad aumentada de código abierto para construir experiencias personalizadas de realidad aumentada.
+          Puedes crear aplicaciones de realidad aumentada basadas en la ubicación o en marcadores y desplegarlas directamente en la web.
+          ¡Esto significa que no tendrás que descargar aplicaciones adicionales para acceder a tu experiencia!
+          Además, trabajar con AR.js Studio no requiere ningún conocimiento de programación.
+          Puedes empezar a crear tu primer proyecto de realidad aumentada ahora mismo.
         </p>
 
-        <img class="splashscreen" src="./assets/img/splashscreen.png" alt="Demo image home page"/>
+        <img class="splashscreen" src="./assets/img/splashscreen.jpg" alt="Demo image home page"/>
 
-        <p class="lead">Pick your project type</p>
+        <p class="lead">Selecciona un tipo de proyecto </p>
 
         <div>
           <label class="radio-container paragraph">
-            <span class="radio-title">Location-based</span>
+            <span class="radio-title">Basado en Geolocalización</span>
             <input
               id="location"
               type="radio"
@@ -44,13 +45,13 @@
               onclick="radioOnclick(this)"
             />
             <span>
-                Place your creation on a map, so it remains tied to a physical location.
+              Ubica tu creación en un mapa, para que permanezca vinculada a una ubicación física.
             </span>
             <span class="checkmark"></span>
           </label>
 
           <label class="radio-container paragraph">
-            <span class="radio-title">Marker-based</span>
+            <span class="radio-title">Basado en Marcadores</span>
             <input
               id="marker"
               type="radio"
@@ -58,17 +59,17 @@
               onclick="radioOnclick(this)"
             />
             <span>
-                Connect your creation to a visual marker, which can be moved to any location.
+              Conecta tu creación a un marcador visual, el cual puede ser movido a cualquier ubicación.
             </span>
             <span class="checkmark"></span>
           </label>
 
           <div class="buttons-container">
-            <a onclick="anchorOnclick(this)" id="start-building" class="primary-button">Start building</a>
+            <a onclick="anchorOnclick(this)" id="start-building" class="primary-button">Comenzar </a>
           </div>
           <feedback-button></feedback-button>
           <div id="error" class="error" style="visibility: hidden;">
-            Please, select a project type.
+            Porfavor, selecciona un tipo de proyecto antes de comenzar.
           </div>
         </div>
       </div>

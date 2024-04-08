@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>AR.js Studio</title>
+    <title>LDQ</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,28 +46,28 @@
         <back-anchor assetsUrl="../../assets"></back-anchor>
         <div class="pages-content-container">
             <div class="pages-content-element">
-                <p class="title">Marker-based</p>
+                <p class="title">Realidad Aumentada Basada en Marcadores</p>
                 <p class="paragraph">
-                    A marker-based AR experience uses a black and white image to anchor the AR content.
-                    Your scene will appear when the marker is in the field of view of your camera.
+                    Una experiencia de realidad aumentada basada en marcadores utiliza una imagen en blanco y negro para anclar el contenido de AR.
+                    Tu escena aparecerá cuando el marcador esté dentro del campo de visión de tu cámara.
                 </p>
                 <p class="paragraph">
-                    You can print a paper version of your marker (which we recommend), or display it on a screen.
+                    Puedes imprimir una versión en papel de tu marcador (lo cual recomendamos), o mostrarlo en una pantalla.
                 </p>
             </div>
         </div>
 
         <div class="pages-content-container">
             <div class="pages-content-element">
-                <p class="lead">1. Use a premade marker or upload your own</p>
+                <p class="lead">1. Utiliza un marcador predefinido o carga el tuyo propio.</p>
                 <p class="paragraph">
-                    Here is a sample marker for you. Feel free to use it as the marker for your project.
-                    Alternatively, click “Upload image” to use a custom one. Not sure what makes a good marker? Check out <a class="link" target="_blank" href="https://github.com/AR-js-org/studio/blob/master/what-makes-a-good-marker.md">this guide</a>.
+                    Aquí tienes un marcador de ejemplo para ti. Siéntete libre de usarlo como el marcador para tu proyecto.
+                    Alternativamente, haz clic en "Subir imagen" para usar una personalizada. ¿No estás seguro de qué hace que un marcador sea bueno? Echa un vistazo a <a class="link" target="_blank" href="https://github.com/AR-js-org/studio/blob/master/what-makes-a-good-marker.md">esta guía</a>.
                 </p>
                 <label class="passive-button">
                     <input id="marker-file" type="file" accept="image/png, image/jpeg" hidden
                         onchange="handleMarkerUpload(this)" />
-                    Upload image
+                    Subir Imagen
                 </label>
                 <p id="marker-error" class="error"></p>
             </div>
@@ -90,15 +90,15 @@
 
         <div class="pages-content-container">
             <div class="pages-content-element">
-                <p class="lead">2. Choose the content </p>
+                <p class="lead">2. Elige el contenido. </p>
                 <p class="paragraph">
-                    <p>Select the type of content you would like to link to your marker and then upload the file from your computer.</p>
+                    <p> Selecciona el tipo de contenido que deseas vincular a tu marcador y luego carga el archivo desde tu computadora.</p>
                     <p class="bold">
-                        Please check the file name and remove whitepaces.
+                        Por favor, verifica el nombre del archivo y elimina los espacios en blanco.
                     </p>
                     <ul>
-                        <li>3D Object (.gltf, .glb .zip; max size 50MB)</li>
-                        <li>Image (.jpg, .png, .gif; max size 15MB)</li>
+                        <li>Objeto 3D (.gltf, .glb .zip; max size 50MB)</li>
+                        <li>Imagen (.jpg, .png, .gif; max size 15MB)</li>
                         <!-- TODO fix the bug for audio -->
                         <!-- <li>Audio (.mp3; max size 10MB)</li> -->
                         <li>Video (.mp4; max size 25MB)</li>
@@ -106,7 +106,7 @@
                 </p>
                 <label class="passive-button file-input">
                     <input id="content-file" accept="*" type="file" hidden onchange="handleContentUpload(this)" />
-                    Upload file
+                    Subir Archivo
                 </label>
                 <p id="content-error" class="error"></p>
             </div>

@@ -74,23 +74,23 @@ const FooterContent = `
   <div>
     <div id="footer">
     <p class="lead">
-      3. Export the project
+      3. Exportar Proyecto
     </p>
 
     <p class="paragraph">
-        Your project is going to be safely hosted on GitHub - a space for code repositories online.
+      Tu proyecto se va a alojar de forma segura en GitHub, un espacio para repositorios de código en línea.
     </p>
     <p class="paragraph">
-    If you would like to save your project locally, you can also download the package containing the generated code and all supporting files.
+    Si deseas guardar tu proyecto localmente, también puedes descargar el paquete que contiene el código generado y todos los archivos de soporte.
     </p>
 
     <div class="buttons">
       <button id="github-publish" disabled class="primary-button publish-disabled">
-        Publish on Github
+        Publicar en Github
       </button>
 
       <button id="zip-publish" disabled class="passive-button publish-disabled">
-        Download package
+        Descargar paquete con Proyecto 
       </button>
     </div>
     </div>
