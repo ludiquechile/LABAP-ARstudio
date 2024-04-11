@@ -4,8 +4,8 @@
 
 /* Color Variables */
 :root {
-  --primary-color: #e633d7;
-  --primary-color-dark: #e6de00;
+  --primary-color: #5293e9;
+  --primary-color-dark: #2b7be4;
   --secondary-color: #0069bf;
   --secondary-color-dark: #00c28e;
   --passive-color: #f2f2f2;
@@ -20,6 +20,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 3em;
+  
 }
 
 .bold {

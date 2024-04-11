@@ -40,23 +40,23 @@ const checkUserUploadStatus = () => {
 // All the required components are uploaded by the user => footer will be enable
 const enablePageFooter = (enable) => {
     if (enable) {
-        githubButton.classList.remove('publish-disabled');
+       // githubButton.classList.remove('publish-disabled');
         zipButton.classList.remove('publish-disabled');
-        githubButton.removeAttribute('disabled');
+       // githubButton.removeAttribute('disabled');
         zipButton.removeAttribute('disabled');
     } else {
-        githubButton.classList.add('publish-disabled');
+      //  githubButton.classList.add('publish-disabled');
         zipButton.classList.add('publish-disabled');
-        githubButton.setAttribute('disabled', '');
+      //  githubButton.setAttribute('disabled', '');
         zipButton.setAttribute('disabled', '');
     }
 }
 
 const zip = () => {
     // TODO: replace alerts with HTML error messages.
-    if (!window.markerImage) return alert('please select a marker image');
-    if (!window.assetType) return alert('please select the correct content type');
-    if (!window.assetFile || !window.assetName) return alert('please upload a content');
+    if (!window.markerImage) return alert('Porfavor selecciona una imagen como marcador');
+    if (!window.assetType) return alert('Porfavor selecciona un contenido para presentar sobre tu marcador');
+    if (!window.assetFile || !window.assetName) return alert('Porfavor cargo un contenido');
 
     MarkerModule.getMarkerPattern(window.markerImage)
         .then((markerPattern) => (new Package({
@@ -73,7 +73,7 @@ const zip = () => {
             // sometimes it doesn't work by use window.location directly, so change to this way
             const link = document.createElement('a');
             link.href = `data:application/zip;base64,${base64}`;
-            link.download = 'ar.zip';
+            link.download = 'Mi_Proyecto_Aumentado.zip';
             link.click();
         });
 };
@@ -86,9 +86,9 @@ const zip = () => {
 const publish = () => {
     // TODO: replace alerts with HTML error messages.
 
-    if (!window.markerImage) return alert('Please, select a marker image.');
-    if (!window.assetType) return alert('Please, select the correct content type.');
-    if (!window.assetFile || !window.assetName) return alert('Please, upload a content.');
+    if (!window.markerImage) return alert('Porfavor selecciona una imagen como marcador');
+    if (!window.assetType) return alert('Porfavor selecciona un contenido para presentar sobre tu marcador');
+    if (!window.assetFile || !window.assetName) return alert('Porfavor cargo un contenido');
 
     MarkerModule.getMarkerPattern(window.markerImage)
         .then((markerPattern) => {
@@ -108,4 +108,4 @@ const publish = () => {
 }
 
 zipButton.addEventListener('click', zip);
-githubButton.addEventListener('click', publish);
+//githubButton.addEventListener('click', publish);

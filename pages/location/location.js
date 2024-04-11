@@ -26,14 +26,14 @@ const checkUserUploadStatus = () => {
 // All the required components are uploaded by the user => footer will be enable
 const enablePageFooter = (enable) => {
     if (enable) {
-        githubButton.classList.remove('publish-disabled');
+        //githubButton.classList.remove('publish-disabled');
         zipButton.classList.remove('publish-disabled');
-        githubButton.removeAttribute('disabled');
+        //githubButton.removeAttribute('disabled');
         zipButton.removeAttribute('disabled');
     } else {
-        githubButton.classList.add('publish-disabled');
+        //githubButton.classList.add('publish-disabled');
         zipButton.classList.add('publish-disabled');
-        githubButton.setAttribute('disabled', '');
+        //githubButton.setAttribute('disabled', '');
         zipButton.setAttribute('disabled', '');
     }
 }
@@ -88,4 +88,4 @@ const publish = () => {
 }
 
 zipButton.addEventListener('click', zip);
-githubButton.addEventListener('click', publish);
+//githubButton.addEventListener('click', publish);

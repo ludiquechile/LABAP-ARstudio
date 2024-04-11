@@ -61,8 +61,8 @@ const StickyButton = `
       }
     </style>
 
-    <a id="stickyBtn" class="sticky-button" target="_blank" href="https://forms.gle/s9EPDNyCzZ2g5j3C9" >
-      <span class="icono-mail"></span> Send feedback
+    <a id="stickyBtn" class="sticky-button" target="_blank" href="https://www.ludique.cl" >
+      <span class="icono-mail"></span> Nosotros
     </a>
 `;
 

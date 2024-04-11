@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <title>LDQ</title>
@@ -62,14 +62,25 @@
                 <p class="lead">1. Utiliza un marcador predefinido o carga el tuyo propio.</p>
                 <p class="paragraph">
                     Aquí tienes un marcador de ejemplo para ti. Siéntete libre de usarlo como el marcador para tu proyecto.
-                    Alternativamente, haz clic en "Subir imagen" para usar una personalizada. ¿No estás seguro de qué hace que un marcador sea bueno? Echa un vistazo a <a class="link" target="_blank" href="https://github.com/AR-js-org/studio/blob/master/what-makes-a-good-marker.md">esta guía</a>.
+                    Alternativamente, haz clic en "Subir imagen" para usar uno personalizado. ¿No estás seguro de qué hace que un marcador sea bueno? Echa un vistazo a <a class="link" target="_blank" href="https://github.com/AR-js-org/studio/blob/master/what-makes-a-good-marker.md">esta guía</a>.
                 </p>
                 <label class="passive-button">
                     <input id="marker-file" type="file" accept="image/png, image/jpeg" hidden
                         onchange="handleMarkerUpload(this)" />
                     Subir Imagen
                 </label>
+
+                <!--label class="passive-button">
+                    <input id="marker-file2" type="file" accept="image/png, image/jpeg" hidden
+                        onchange="handleMarkerUpload2(this)" />
+                    Subir Imagen2
+                </label -->
+
+
+
                 <p id="marker-error" class="error"></p>
+
+
             </div>
             <div id="marker-preview" target="marker-file">
                 <div class="marker">
@@ -82,10 +93,30 @@
                                 <path d="M16.5 8L15.09 6.59L9.5 12.17V0H7.5V12.17L1.92 6.58L0.5 8L8.5 16L16.5 8Z" fill="black"/>
                             </svg>
                         </span>
-                        <a class="filename" style="text-decoration: none; color: black; justify-self: flex-end;" href="../../assets/default-marker.png" download>Download marker</a>
+                        <a class="filename" style="text-decoration: none; color: black; justify-self: flex-end;" href="../../assets/default-marker.png" download>Descargar Marcador</a>
                     </div>
                 </div>
             </div>
+
+
+        <!--/div>
+        <div id="marker-preview2" target="marker-file2">
+            <div class="marker">
+                <img src="../../assets/default-marker2.png" alt="Default marker png"/>
+            </div>
+            <div class="download-marker" style="display: flex; justify-content: flex-end; padding: 1em 0;">
+                <div class="download-default-marker">
+                    <span>
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none">
+                            <path d="M16.5 8L15.09 6.59L9.5 12.17V0H7.5V12.17L1.92 6.58L0.5 8L8.5 16L16.5 8Z" fill="black"/>
+                        </svg>
+                    </span>
+                    <a class="filename" style="text-decoration: none; color: black; justify-self: flex-end;" href="../../assets/default-marker2.png" download>Descargar Marcador2</a>
+                </div>
+            </div>
+        </div -->
+
+
         </div>
 
         <div class="pages-content-container">

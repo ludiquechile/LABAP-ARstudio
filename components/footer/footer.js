@@ -77,21 +77,23 @@ const FooterContent = `
       3. Exportar Proyecto
     </p>
 
-    <p class="paragraph">
-      Tu proyecto se va a alojar de forma segura en GitHub, un espacio para repositorios de código en línea.
-    </p>
-    <p class="paragraph">
-    Si deseas guardar tu proyecto localmente, también puedes descargar el paquete que contiene el código generado y todos los archivos de soporte.
-    </p>
 
+    <p class="paragraph">
+    Descargar el paquete que contiene el código generado y todos los archivos necesarios para ejecutar tu proyecto.
+    </p>
+ 
     <div class="buttons">
-      <button id="github-publish" disabled class="primary-button publish-disabled">
-        Publicar en Github
-      </button>
 
+    
+      <!-- button id="github-publish" disabled class="primary-button publish-disabled">
+        Publicar en Github
+      </button -->
+  
       <button id="zip-publish" disabled class="passive-button publish-disabled">
         Descargar paquete con Proyecto 
       </button>
+
+      
     </div>
     </div>
   </div>`;

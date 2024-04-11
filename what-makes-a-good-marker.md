@@ -1,26 +1,19 @@
-# What makes a good marker
+# Qué hace un buen marcador
+## 1. Usa marcadores asimétricos en rotación
+En primer lugar, la brusquedad del contenido en 3D suele ser determinada únicamente por un factor: la capacidad de la cámara para reconocer el marcador. De hecho, los modelos 3D se "sacuden" si la cámara no es capaz de reconocer de manera estable el marcador. Esto se puede evitar utilizando marcadores asimétricos en rotación.
+Quiero simplificarlo: es mejor que los marcadores no sean similares cuando se ven desde diferentes ángulos. Asegúrate de que si giras tu marcador, se vea diferente desde tu punto de vista.
 
-## 1. Use rotationally asymmetrical markers
-
-First of all, jerkiness of 3D content is usually determined only by one factor: the capability of camera to recognize the marker. In fact, 3D models are ‘shaking’ if camera is not able to steadily recognize the marker. This can be avoided using rotationally asymmetrical markers.
-I want to make it simple: markers are better not to be similar if looked from different angles. So be sure that if you rotate your marker, it looks different from your point of view.
-
-For example:
+Por ejemplo:
 
 <img src="https://miro.medium.com/max/556/1*pFxd1JLmK1vvWgTlbtTwJw.png"/>
 
-## 2. Simple images
+## 2. Imágenes simples
+Utiliza imágenes simples como logotipos, letras, números, símbolos. No utilices imágenes o dibujos, por ejemplo.
+El marcador es una descripción numérica de la imagen (basada en contrastes), por lo que necesitamos usar una imagen simple.
 
-Use simple images like logos, letters, numbers, symbol. Do not use pictures or drawings, for example.
-The marker is a numerical description of the image (based on contrasts) so we need to use a simple image.
-
-For example:
+Por ejemplo:
 
 <img src="https://miro.medium.com/max/452/1*IW8t0l7nGY7gcqYnnVtwTQ.png"/>
 
-## 3. Use high-contrast images
-
-Use images with high constrast: they can also be images with colors but it's important to have an high constrast between marker image, marker background and also marker border (e.g. all black, with yellow background)
-
-
-
+## 3. Usa imágenes de alto contraste
+Utiliza imágenes con alto contraste: también pueden ser imágenes a color, pero es importante tener un alto contraste entre la imagen del marcador, el fondo del marcador y también el borde del marcador (por ejemplo, todo negro, con fondo amarillo).
