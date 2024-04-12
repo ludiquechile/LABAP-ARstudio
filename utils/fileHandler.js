@@ -20,6 +20,8 @@ function handleUnload(self, isMarker = false) {
     checkUserUploadStatus();
 };
 
+
+
 function handleMarkerUpload(self) {
     const file = self.files[0];
 

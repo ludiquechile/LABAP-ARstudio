@@ -85,9 +85,9 @@ const FooterContent = `
     <div class="buttons">
 
     
-      <!-- button id="github-publish" disabled class="primary-button publish-disabled">
+      <button id="github-publish" disabled class="primary-button publish-disabled">
         Publicar en Github
-      </button -->
+      </button>
   
       <button id="zip-publish" disabled class="passive-button publish-disabled">
         Descargar paquete con Proyecto 
