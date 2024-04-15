@@ -18,7 +18,7 @@ window.onload = async () => {
         return;
     }
 
-    let response = await fetch(`https://nousar.ludique.xyz/gatekeeper/${queryDict.code}`);
+    let response = await fetch(`https://nousar.ludique.xyz/gatekeeper/authenticate/${queryDict.code}`);
     response = await response.json();
 
     const package = new Package(window.session);
