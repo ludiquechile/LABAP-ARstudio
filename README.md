@@ -9,7 +9,7 @@ Este proyecto fue creado para el laboratorio de Apredizaje de la Universidad de 
 
 # Authors
 
-Producción y Desarrollo: Ludique 
+Producción y Desarrollo: [Ludique Comunicaciones](https://ludique.cl) 
 
 Idea AR.studio: [Nicolò Carpignoli](https://twitter.com/nicolocarp)
 
