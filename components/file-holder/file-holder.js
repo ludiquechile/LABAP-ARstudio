@@ -22,7 +22,7 @@ const fileHolderTemplate = `
 
   <div>
     <div class="image-placeholder">
-      Click to upload
+    Haz click para subir
     </div>
   </div>`;
 
